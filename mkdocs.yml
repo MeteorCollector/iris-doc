@@ -1,0 +1,38 @@
+site_name: iris documents
+theme:
+#  name: material
+  name: material
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+nav:
+  - 前言: index.md
+#  - manual: iris-manual.markdown
+  - iris 发 ？: iris 发 ？.markdown
+  - iris 填字: iris 填字.markdown
+  - iris 天竞 & 猜天体: iris 天竞 & iris 猜天体.markdown
+  - iris tex: iris tex.markdown
+  - iris 认星星: iris 认星星.markdown
+  - iris 今日运势: iris 今日运势.markdown
+  - 定时消息 + 欢迎消息: 定时消息 + 欢迎消息.markdown
+  - iris的运行维护指令: iris的运行维护指令.markdown
+  - iris的nlp解释和其他功能: iris的nlp解释和其他功能.markdown
+  - Q & A: Q & A.markdown
