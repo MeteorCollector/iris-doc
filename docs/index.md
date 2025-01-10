@@ -6,7 +6,7 @@ iris 是一个天文科普机器人，完全由监护人独立编写，诞生于
 
 如果想要了解iris的全部功能，请继续阅读本文档。
 
-如果想要了解iris的自然语言处理部分，请阅读：[iris的NLP简记](https://meteorcollector.github.io/2023/05/iris-fake-nlp/)
+如果想要了解iris接入LLM之前的自然语言处理部分，请阅读：[iris的NLP简记](https://meteorcollector.github.io/2023/05/iris-fake-nlp/)
 
 ## 原版manual
 
@@ -43,6 +43,14 @@ iris长期征集天文题库。详见 [这篇文章](https://meteorcollector.git
 请**确保**你已经记住了**“重要提醒”**中的内容再继续阅读。
 
 ## 新闻
+
+### iris 接入大语言模型 (2025.1.11)
+
+iris 正式接入了 deepseek，并在原有语料库和回复生成方式的基础上做 prompt engineering。
+
+### iris 第二次获得南京大学民间年度人物提名 (2024.12.31)
+
+不再赘述，去南哪助手那里去看吧~ 原来iris还没有完全过气啊。
 
 ### iris 两周年了！(2024.8.24)
 
